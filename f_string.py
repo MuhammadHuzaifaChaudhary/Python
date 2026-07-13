@@ -1,3 +1,5 @@
+# f string is also used to format the string in python and
+# it is more efficient than + operator to concatenate the string and variable.
 name = "Alice"
 age = 25
 height = 1.75
@@ -37,3 +39,17 @@ print(message)
 # 8. Debugging (Python 3.8+)
 x = 10
 print(f"{x = }")  # Prints: x = 10
+
+
+#  any operation can be done inside the f string like addition, subtraction, multiplication, division, etc.
+# Anything inside {} is evaluated/executed
+print(f"{2 + 2}")           # 4
+print(f"{5 * 3}")           # 15
+print(f"{10 / 2}")          # 5.0
+print(f"{2 ** 10}")         # 1024
+
+
+text = "hello world"
+print(f"{text.replace('world', 'Python')}")  # hello Python
+print(f"{text.split()}")                     # ['hello', 'world']
+print(f"{text.upper().lower()}")             # hello world

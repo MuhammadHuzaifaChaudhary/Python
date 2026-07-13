@@ -6,6 +6,7 @@
 
 # in python 
 # Python: Iterates over a range
+# using range() function
 for i in range(5):
     print(i)
 # Output: 0 1 2 3 4

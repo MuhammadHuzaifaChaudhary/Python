@@ -44,3 +44,11 @@ def get_stats(numbers):
 
 minimum, maximum, average = get_stats([1, 2, 3, 4, 5])
 print(f"Min: {minimum}, Max: {maximum}, Avg: {average:.2f}")
+
+
+a=10
+b=9
+if(a>b):
+    pass 
+# this pass will say python to do nothing and 
+# continue with the rest of the code.

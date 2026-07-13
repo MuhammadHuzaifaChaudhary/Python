@@ -25,6 +25,8 @@ while user_input != "quit":
     user_input = input("Enter 'quit' to exit: ")
     print("You entered: ,user_input")
 
+#  f string is also used to format the string in python and 
+# it is more efficient than + operator to concatenate the string and variable.
 # Infinite loop with break
 while True:
     command = input("Enter command: ")
