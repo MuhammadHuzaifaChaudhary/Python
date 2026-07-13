@@ -32,7 +32,7 @@ if 'a' in ['a', 'b', 'c']:
 # python syntax 
 
 x=9;
-if 0 < x < 10:  # Python allows this!
+if (0 < x < 10):  # Python allows this!
     print("x is between 0 and 10")
 
 # ternary operator in c++
@@ -46,3 +46,4 @@ max_val = a if a > b else b  # Note the order!
 # if x > 5:
 # print("Hello")  # ❌ IndentationError
 #     print("World")  # ❌ Mixed indentation
+

@@ -6,11 +6,18 @@ print(7-5)
 # by just selecting all text and do ctrl + /
 
 # we can also do it by using triple quotes
+"""hello how are you my gng 
+i am fine and you
+i am also fine"""
+# and these comments are multiple line comments
+
+# and if we store them in a variable then it become multiline string and we can print it
 apple="""hello how are you my gng 
 i am fine and you
 i am also fine"""
 print(apple)
-# and these comments are multiple line comments
+
+
 
 # now for printing double quotes we can do it by using single quotes
 #we cannot use double quotes inside double quotes 

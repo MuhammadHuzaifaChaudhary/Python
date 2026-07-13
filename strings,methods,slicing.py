@@ -33,7 +33,7 @@ print(b.swapcase())  # swaps the case of each character
 print(b.strip())  # removes whitespace from both ends of the string
 print(b.lstrip())  # removes whitespace from left end of the string
 print(b.rstrip("!"))  # removes whitespace or the mark you type
-# in bracket # from right end of the string 
+# in bracket from right end of the string 
 print(b.replace("!", "?"))  # replaces all occurrences of "!" with "?"
 
 countstr=b.count("a")
@@ -63,3 +63,4 @@ print(c.istitle())
 # returns True if the string have uppercase character
 #  at the start of each word
 print(c.title())  # converts first character of each word to uppercase
+

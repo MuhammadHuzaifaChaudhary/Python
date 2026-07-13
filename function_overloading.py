@@ -31,7 +31,10 @@ print(add(5.5, 3.2))    # 8.7
 print(add("Hello", "World"))  # Hello World
 
 
-# or by using single dispatch function
+
+
+# or by using singled ispatch function
+
 from functools import singledispatch
 
 @singledispatch
@@ -54,3 +57,5 @@ process(42)        # Integer: 42
 process("hello")   # String: hello
 process([1, 2, 3]) # List with 3 items
 process(3.14)      # Default: 3.14
+
+

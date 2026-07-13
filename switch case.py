@@ -13,6 +13,8 @@ match day:
     case 5:
         print("Friday")
     case _:  # Default case (like default: in C++)
+        # if day is not 1, 2, 3, 4, or 5, this block will execute
+        # its just like else 
         print("Weekend")
 
 
@@ -36,4 +38,3 @@ match day:
         #     default:
         #         cout << "Weekend" << endl;
         # }
-        
