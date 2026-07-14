@@ -16,6 +16,7 @@ print(b[:3])
 # end of the string
 
 # negatuve slicing 
+print("negative indicing")
 print(b[-3:])
 # python means it will automatically do len(b)-3 = 4 means it will
 #  start from index 4 and go till the end of the string
