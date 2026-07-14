@@ -17,6 +17,13 @@ more_fruits = ["fig", "grape"]
 all_fruits = fruits + more_fruits
 print(all_fruits)  # ['apple', 'blueberry', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']
 
+fruits.reverse()
+print(fruits)  # ['elderberry', 'date', 'cherry', 'banana', 'blueberry', 'apple']
+
+nums=[1,2,7,5,9,3,10]
+nums.sort()
+print(nums) # [1, 2, 3, 5, 7, 9, 10]
+
 # ====================================================================
 
 # C++ equivalent 
