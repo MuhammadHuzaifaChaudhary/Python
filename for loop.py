@@ -60,3 +60,7 @@ for value in person.values():
 # Iterate over key-value pairs
 for key, value in person.items():
     print(f"{key}: {value}")
+
+word="hello"
+for i in word:
+    print(i) # h, e, l, l, o
