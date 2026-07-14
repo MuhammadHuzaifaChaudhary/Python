@@ -64,3 +64,9 @@ for key, value in person.items():
 word="hello"
 for i in word:
     print(i) # h, e, l, l, o
+
+# if we want gto iterate like C++ we can use range and len function to iterate over the string
+for i in range(len(word)):
+    print(word[i]) # h, e, l, l, o
+
+    
