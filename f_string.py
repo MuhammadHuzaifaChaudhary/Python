@@ -11,6 +11,10 @@ print(f"Name: {name}, Age: {age}")
 print(f"Next year: {age + 1}")
 print(f"Name in uppercase: {name.upper()}")
 
+#  another way 
+print("another way to format the string is by using format() method")
+print("name is {} and age is {}".format(name, age))
+
 # 3. Formatting numbers
 print(f"Height: {height:.2f}")  # 1.75
 print(f"Height: {height:.1f}")  # 1.8
