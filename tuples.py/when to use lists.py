@@ -10,4 +10,5 @@
 shopping_cart = ["apple", "banana", "cherry"]
 shopping_cart.append("date")
 shopping_cart.remove("banana")
-shopping_cart.sort()
+shopping_cart.sort() 
+# ===============================
