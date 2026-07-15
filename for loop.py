@@ -69,4 +69,3 @@ for i in word:
 for i in range(len(word)):
     print(word[i]) # h, e, l, l, o
 
-    

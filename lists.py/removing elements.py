@@ -21,3 +21,18 @@ print(fruits)  # ['date']
 # clear() - remove all elements
 fruits.clear()
 print(fruits)  # []
+
+# =====================================================================
+# C++ equivalent
+# =====================================================================
+
+# # vector<string> fruits = {"apple", "banana", "cherry"};
+# // Remove by value (needs find)
+# auto it = find(fruits.begin(), fruits.end(), "banana");
+# if (it != fruits.end()) fruits.erase(it);
+# // pop_back() - remove last
+# fruits.pop_back();
+# // erase - remove at position
+# fruits.erase(fruits.begin() + 1);
+
+# =====================================================================
