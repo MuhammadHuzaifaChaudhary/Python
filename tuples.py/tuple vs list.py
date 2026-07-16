@@ -8,13 +8,13 @@ tuple_data = (1, 2, 3, 4, 5)
 print(f"List size: {sys.getsizeof(list_data)} bytes")   # ~96 bytes
 print(f"Tuple size: {sys.getsizeof(tuple_data)} bytes") # ~80 bytes
 
-# Speed comparison (creation) .
+# Speed comparison (creation)
 start = time.time()
 for _ in range(1000000):
     lst = [1, 2, 3, 4, 5]
 list_time = time.time() - start
 
-start = time.time()
+start = time.time() 
 for _ in range(1000000):
     tpl = (1, 2, 3, 4, 5)
 tuple_time = time.time() - start

@@ -25,7 +25,7 @@ mixed = (1, 2, [3, 4, 5])
 
 # You CAN modify the list inside the tuple
 mixed[2][0] = 99
-print(mixed)  # (1, 2, [99, 4, 5])  ← List changed!
+print(mixed)  # (1, 2, [99, 4, 5])  ← List changed  .!!!!
 
 # But you CANNOT replace the list itself
 # mixed[2] = [6, 7, 8]  # ❌ TypeError!  .
