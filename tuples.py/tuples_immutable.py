@@ -28,7 +28,7 @@ mixed[2][0] = 99
 print(mixed)  # (1, 2, [99, 4, 5])  ← List changed  .!!!!
 
 # But you CANNOT replace the list itself
-# mixed[2] = [6, 7, 8]  # ❌ TypeError!  .
+# mixed[2] = [6, 7, 8]  # ❌ TypeError! 
 
 # Why? The tuple holds a reference to the list object
 # You can change what's inside the list, but not the reference itself
