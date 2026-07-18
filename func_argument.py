@@ -10,7 +10,7 @@ describe_pet("Whiskers", "cat")  # I have a cat named Whiskers
 
 
 
-# call with default arguments
+# call with default arguments 
 # Default parameters (C++ equivalent but more flexible)
 def greet(name, greeting="Hello"):
     print(f"{greeting}, {name}!")
