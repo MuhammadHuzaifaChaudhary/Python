@@ -43,7 +43,7 @@ print("Case 1: No break")
 for i in range(3):
     print(f"Loop: {i}")
 else:
-    print("ELSE runs!")  # ✅ This runs
+    print("ELSE runs!")  # This runs
 
 # Output:
 # Loop: 0
