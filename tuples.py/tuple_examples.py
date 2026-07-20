@@ -6,6 +6,8 @@ def divide_with_remainder(a, b):
 
 quotient, remainder = divide_with_remainder(17, 5)
 print(f"17 / 5 = {quotient} remainder {remainder}")  # 17 / 5 = 3 remainder 2
+# we can return two values from a function, and they will be returned as a tuple. 
+# We can unpack the tuple into separate variables.
 
 def analyze_list(numbers):
     """Return multiple statistics about a list"""
