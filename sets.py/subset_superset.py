@@ -19,4 +19,3 @@ print(set1.isdisjoint(set2))  # False (share 2, 3, 4)
 print(set2 <= set1)  # True (subset)
 print(set2 < set1)   # True (proper subset)
 print(set1 < set1)   # False (not proper subset)
-

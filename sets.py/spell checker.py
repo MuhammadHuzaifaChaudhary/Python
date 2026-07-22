@@ -1,7 +1,7 @@
 # Dictionary of correct words
 dictionary = {"apple", "banana", "cherry", "date", "elderberry"}
 
-# User input
+# User input...
 user_words = ["apple", "bananna", "cherry", "d8te", "grape"]
 
 # Find misspelled words
