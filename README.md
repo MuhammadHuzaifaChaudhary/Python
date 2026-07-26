@@ -47,7 +47,7 @@
 
 <div align="center">
 
-### 🟡 Welcome to my **Python Programming Journey**! 🚀
+### 🟡 Welcome to my **Python Programming Journey**! 
 
 </div>
 
