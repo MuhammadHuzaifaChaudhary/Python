@@ -1,8 +1,13 @@
 # Tuples are not sortable directly (no sort method)
+# first it will convert it into list and then sort it and then we have to convert it back into tuple
+
+
 numbers = (5, 2, 8, 1, 9, 3)
+print(sorted(numbers))  #[1, 2, 3, 5, 8, 9]
 
 # Convert to list, sort, convert back
 sorted_tuple = tuple(sorted(numbers))
+
 print(sorted_tuple)  # (1, 2, 3, 5, 8, 9)
 
 # Or use sorted() which returns list

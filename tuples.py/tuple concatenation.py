@@ -9,3 +9,8 @@ print(combined)  # (1, 2, 3, 4, 5, 6, 7, 8, 9)
 # Repeat
 repeated = t1 * 3
 print(repeated)  # (1, 2, 3, 1, 2, 3, 1, 2, 3)
+
+
+# membership test
+print(2 in t1)  # True
+print(5 in t1)  # False

@@ -1,3 +1,6 @@
+# in tuple order matters 
+# (1,2,3) != (3,2,1)  # True
+
 # Empty tuple
 empty_tuple = ()
 empty_tuple2 = tuple()
@@ -28,6 +31,13 @@ print(my_tuple)  # (1, 2, 3)
 # From string
 char_tuple = tuple("hello")
 print(char_tuple)  # ('h', 'e', 'l', 'l', 'o')
+
+# 2d tuple
+t=((1, 2), (3, 4), (5, 6))
+print(t[0])  # (1, 2)
+print(t[1])  # (3, 4)
+print(t[2])  # (5, 6)
+
 # ===========================================================
 #  C++ equivalent 
 # ========================================================
