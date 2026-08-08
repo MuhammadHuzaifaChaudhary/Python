@@ -17,12 +17,11 @@ fruits = ("apple", "banana", "cherry")
 # ❌ These all fail!
 # fruits[0] = "orange"  # TypeError
 # fruits.append("date")  # AttributeError
+# ✅ Instead, create a new tuple
 # fruits.remove("apple") # AttributeError
 # del fruits[1]          # TypeError
 
-# ✅ Instead, create a new tuple
 new_fruits = ("orange",) + fruits[1:]
 print(new_fruits)  # ('orange', 'banana', 'cherry')
-
 
 
